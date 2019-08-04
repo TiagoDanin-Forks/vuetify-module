@@ -4,5 +4,8 @@ module.exports = {
   collectCoverageFrom: [
     'lib/**/*.js',
     '!lib/templates/**'
+  ],
+  transformIgnorePatterns: [
+    'node_modules/(?!vuetify)'
   ]
 }
